@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="1500" viewBox="0 0 1200 1500">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d9e6dd"/>
+      <stop offset="0.42" stop-color="#b9d0c2"/>
+      <stop offset="1" stop-color="#8aa18f"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#395753"/>
+      <stop offset="1" stop-color="#60786f"/>
+    </linearGradient>
+    <linearGradient id="ms" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#486579"/>
+      <stop offset="1" stop-color="#63808c"/>
+    </linearGradient>
+    <linearGradient id="acp" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#785836"/>
+      <stop offset="1" stop-color="#a97b48"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="14" stdDeviation="20" flood-color="#2b3a33" flood-opacity="0.24"/>
+    </filter>
+    <clipPath id="octoClip">
+      <ellipse cx="600" cy="670" rx="162" ry="206"/>
+    </clipPath>
+    <style>
+      .sans { font-family: "Avenir Next", "Gill Sans", "Trebuchet MS", "Liberation Sans", Arial, sans-serif; }
+      .eyebrow { font-size: 22px; font-weight: 800; fill: #405147; letter-spacing: 2px; }
+      .title { font-size: 62px; font-weight: 850; fill: #1f2e28; }
+      .subtitle { font-size: 30px; font-weight: 750; fill: #22332d; }
+      .chipTitle { font-size: 28px; font-weight: 850; fill: #f7f4ee; }
+      .chipSub { font-size: 21px; font-weight: 750; fill: #f7faf8; }
+      .boxTitle { font-size: 23px; font-weight: 850; fill: #fbfcfb; }
+      .boxText { font-size: 18px; font-weight: 750; fill: #f7faf8; }
+      .centerText { font-size: 25px; font-weight: 850; fill: #1d2a25; }
+      .verdict { font-size: 31px; font-weight: 850; fill: #23342e; }
+      .verdictSub { font-size: 22px; font-weight: 750; fill: #344841; }
+      .brand { font-size: 28px; font-weight: 850; fill: #24352f; }
+      .muted { font-size: 21px; font-weight: 650; fill: #4c6359; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="1500" fill="url(#bg)"/>
+  <rect y="1040" width="1200" height="460" fill="url(#sea)" opacity="0.24"/>
+  <circle cx="1030" cy="170" r="190" fill="#f3efe2" opacity="0.55"/>
+  <circle cx="140" cy="1240" r="250" fill="#e7dcc7" opacity="0.40"/>
+
+  <text x="78" y="84" class="sans eyebrow">REGULATED AI NEEDS PROOF, NOT JUST CONTROL</text>
+  <text x="78" y="166" class="sans title">ACP vs Microsoft Agent 365</text>
+  <text x="78" y="222" class="sans subtitle">A real octopus, a natural palette, and a clearer regulated choice.</text>
+
+  <g filter="url(#shadow)">
+    <rect x="78" y="278" width="450" height="112" rx="26" fill="url(#ms)"/>
+    <text x="110" y="326" class="sans chipTitle">Microsoft Agent 365 / SDK</text>
+    <text x="110" y="363" class="sans chipSub">Useful for managing the agent estate</text>
+
+    <rect x="672" y="278" width="450" height="112" rx="26" fill="url(#acp)"/>
+    <text x="704" y="326" class="sans chipTitle">AI Control Plane (ACP)</text>
+    <text x="704" y="363" class="sans chipSub">Built for regulated decision evidence</text>
+  </g>
+
+  <g opacity="0.9">
+    <path d="M510 642 C370 578, 278 526, 110 456" fill="none" stroke="#63808c" stroke-width="26" stroke-linecap="round"/>
+    <path d="M512 704 C360 700, 258 704, 92 686" fill="none" stroke="#63808c" stroke-width="26" stroke-linecap="round"/>
+    <path d="M520 772 C382 832, 270 876, 120 940" fill="none" stroke="#63808c" stroke-width="26" stroke-linecap="round"/>
+    <path d="M542 832 C426 950, 336 1040, 178 1138" fill="none" stroke="#63808c" stroke-width="26" stroke-linecap="round"/>
+
+    <path d="M690 642 C830 578, 922 526, 1090 456" fill="none" stroke="#a97b48" stroke-width="26" stroke-linecap="round"/>
+    <path d="M688 704 C840 700, 942 704, 1108 686" fill="none" stroke="#a97b48" stroke-width="26" stroke-linecap="round"/>
+    <path d="M680 772 C818 832, 930 876, 1080 940" fill="none" stroke="#a97b48" stroke-width="26" stroke-linecap="round"/>
+    <path d="M658 832 C774 950, 864 1040, 1022 1138" fill="none" stroke="#a97b48" stroke-width="26" stroke-linecap="round"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <ellipse cx="600" cy="670" rx="176" ry="220" fill="#efe4d0" opacity="0.88"/>
+    <image x="430" y="464" width="340" height="412" xlink:href="/home/Henry/output/intelxview-buffer-assets-repo/linkedin-agent365-2026-06/octopus-source.jpg" clip-path="url(#octoClip)" preserveAspectRatio="xMidYMid slice"/>
+    <ellipse cx="600" cy="670" rx="164" ry="208" fill="none" stroke="#fbf8f2" stroke-width="8"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="60" y="420" width="324" height="86" rx="22" fill="#425d6a"/>
+    <text x="88" y="456" class="sans boxTitle">Agent registry</text>
+    <text x="88" y="484" class="sans boxText">What exists across the estate?</text>
+
+    <rect x="50" y="650" width="324" height="86" rx="22" fill="#425d6a"/>
+    <text x="78" y="686" class="sans boxTitle">Identity and access</text>
+    <text x="78" y="714" class="sans boxText">Who can use which agent?</text>
+
+    <rect x="58" y="874" width="324" height="86" rx="22" fill="#425d6a"/>
+    <text x="86" y="910" class="sans boxTitle">Telemetry</text>
+    <text x="86" y="938" class="sans boxText">What is visible and connected?</text>
+
+    <rect x="164" y="1088" width="344" height="86" rx="22" fill="#425d6a"/>
+    <text x="192" y="1124" class="sans boxTitle">Security governance</text>
+    <text x="192" y="1152" class="sans boxText">How the agent estate is controlled</text>
+
+    <rect x="816" y="420" width="324" height="86" rx="22" fill="#805f3d"/>
+    <text x="844" y="456" class="sans boxTitle">Decision evidence</text>
+    <text x="844" y="484" class="sans boxText">What happened, step by step?</text>
+
+    <rect x="826" y="650" width="324" height="86" rx="22" fill="#805f3d"/>
+    <text x="854" y="686" class="sans boxTitle">Named owner</text>
+    <text x="854" y="714" class="sans boxText">Who stands behind the outcome?</text>
+
+    <rect x="818" y="874" width="324" height="86" rx="22" fill="#805f3d"/>
+    <text x="846" y="910" class="sans boxTitle">Data-boundary proof</text>
+    <text x="846" y="938" class="sans boxText">What regulated data was touched?</text>
+
+    <rect x="704" y="1088" width="436" height="86" rx="22" fill="#805f3d"/>
+    <text x="732" y="1124" class="sans boxTitle">Exception and regulator trail</text>
+    <text x="732" y="1152" class="sans boxText">Can the firm prove the decision on demand?</text>
+  </g>
+
+  <g>
+    <rect x="436" y="900" width="328" height="110" rx="24" fill="#faf7f1" opacity="0.97"/>
+    <text x="473" y="946" class="sans centerText">Same octopus.</text>
+    <text x="473" y="980" class="sans centerText">Different question.</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="92" y="1272" width="1016" height="116" rx="28" fill="#faf7f1"/>
+    <text x="140" y="1320" class="sans verdict">In regulated environments, ACP is the obvious choice.</text>
+    <text x="140" y="1360" class="sans verdictSub">Agent 365 manages the estate. ACP proves the decision when the regulator asks.</text>
+  </g>
+
+  <text x="78" y="1460" class="sans brand">IntelXview</text>
+  <text x="242" y="1460" class="sans muted">AI evidence for regulated firms</text>
+</svg>
